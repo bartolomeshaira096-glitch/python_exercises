@@ -9,3 +9,10 @@ class Text:
             result = "0" + result
 
         return result
+    
+text = input("Enter a string: ")
+width = int(input("Enter total width: "))
+
+value = Text(text)
+
+print(value.zero_fill(width))
