@@ -6,3 +6,8 @@ while True:
         numbers.append(num)
     except ValueError:
         break
+    
+if numbers:
+    print("Lowest number:", min(numbers))
+else:
+    print("No valid numbers entered")
