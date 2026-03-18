@@ -6,3 +6,6 @@ while True:
         numbers.append(num)
     except ValueError:
         break
+
+if numbers:
+    average = sum(numbers) / len(numbers)
