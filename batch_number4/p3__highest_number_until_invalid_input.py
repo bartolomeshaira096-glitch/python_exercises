@@ -9,3 +9,6 @@ while True:
 
 if numbers:
     highest = max(numbers)
+    print("Highest number:", highest)
+else:
+    print("No valid numbers entered")
