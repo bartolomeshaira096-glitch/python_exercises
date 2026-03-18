@@ -1,2 +1,9 @@
 first_number = float(input("Enter first number: "))
 second_number = float(input("Enter second number: "))
+
+if first_number < second_number:
+    smaller = first_number
+else:
+    smaller = second_number
+
+print("Smaller number:", smaller)
