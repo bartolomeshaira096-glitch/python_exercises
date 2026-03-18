@@ -7,3 +7,10 @@ class Text:
             return False
 
         return self.text[:len(prefix)] == prefix
+    
+text = input("Enter a string: ")
+prefix = input("Enter prefix to check: ")
+
+value = Text(text)
+
+print(value.starts_with(prefix))
