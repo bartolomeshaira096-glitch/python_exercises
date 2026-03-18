@@ -1,3 +1,6 @@
 numbers = []
 
-while True:z
+while True:
+    try:
+        num = int(input("Enter a number: "))
+        
