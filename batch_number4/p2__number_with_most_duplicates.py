@@ -15,3 +15,6 @@ for num in numbers:
     if count > highest_count:
         highest_count = count
         most_number = num
+
+if most_number is not None:
+    print("Number with most duplicates:", most_number)
