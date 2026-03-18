@@ -8,3 +8,6 @@ while True:
         break
 
 numbers.sort()
+
+for num in numbers:
+    print(num)
