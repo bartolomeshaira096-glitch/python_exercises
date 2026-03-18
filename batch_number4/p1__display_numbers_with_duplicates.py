@@ -9,3 +9,6 @@ duplicates = []
 for num in numbers:
     if numbers.count(num) > 1 and num not in duplicates:
         duplicates.append(num)
+
+for num in duplicates:
+    print(num)
