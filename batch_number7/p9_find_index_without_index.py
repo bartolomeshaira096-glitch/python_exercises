@@ -8,3 +8,10 @@ class Text:
                 return position
 
         return -1
+
+text = input("Enter a string: ")
+character = input("Enter character to find: ")
+
+value = Text(text)
+
+print(value.custom_index(character))
