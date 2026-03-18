@@ -10,3 +10,10 @@ class Text:
                 counter += 1
 
         return counter
+    
+text = input("Enter a string: ")
+character = input("Enter character to count: ")
+
+value = Text(text)
+
+print(value.custom_count(character))
