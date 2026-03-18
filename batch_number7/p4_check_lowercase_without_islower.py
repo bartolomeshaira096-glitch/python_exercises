@@ -12,3 +12,9 @@ class Text:
                 has_letter = True
 
         return has_letter
+    
+text = input("Enter a string: ")
+
+value = Text(text)
+
+print(value.is_lowercase())
