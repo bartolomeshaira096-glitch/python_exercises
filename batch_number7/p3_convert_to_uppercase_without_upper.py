@@ -12,3 +12,9 @@ class Text:
                 result += character
 
         return result
+    
+text = input("Enter a string: ")
+
+value = Text(text)
+
+print(value.to_uppercase())
