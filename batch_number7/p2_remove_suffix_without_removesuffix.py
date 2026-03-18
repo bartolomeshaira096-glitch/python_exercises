@@ -10,3 +10,10 @@ class Text:
             return self.text[:-len(suffix)]
 
         return self.text
+    
+text = input("Enter a string: ")
+suffix = input("Enter suffix to remove: ")
+
+value = Text(text)
+
+print(value.remove_suffix(suffix))
