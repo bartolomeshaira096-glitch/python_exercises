@@ -14,3 +14,11 @@ class Text:
             result += chr(ord(first_char) - 32)
         else:
             result += first_char
+
+        for char in self.text[1:]:
+            if 'A' <= char <= 'Z':
+                result += chr(ord(char) + 32)
+            else:
+                result += char
+
+        return result
