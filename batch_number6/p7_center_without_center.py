@@ -12,3 +12,10 @@ class Text:
         right_spaces = total_spaces - left_spaces
 
         return (" " * left_spaces) + self.text + (" " * right_spaces)
+
+text = input("Enter a string: ")
+width = int(input("Enter total width: "))
+
+value = Text(text)
+
+print(f"'{value.center_text(width)}'")
