@@ -7,3 +7,10 @@ class Text:
             return False
 
         return self.text[-len(suffix):] == suffix
+    
+text = input("Enter a string: ")
+suffix = input("Enter suffix to check: ")
+
+value = Text(text)
+
+print(value.ends_with(suffix))
