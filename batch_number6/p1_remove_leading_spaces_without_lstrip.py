@@ -9,3 +9,9 @@ class Text:
             index += 1
 
         return self.text[index:]
+    
+text = input("Enter a string: ")
+
+value = Text(text)
+
+print(value.remove_leading_spaces())
