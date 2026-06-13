@@ -9,3 +9,10 @@ class Text:
             result += " "
 
         return result
+    
+text = input("Enter a string: ")
+width = int(input("Enter total width: "))
+
+value = Text(text)
+
+print(f"'{value.left_justify(width)}'")
