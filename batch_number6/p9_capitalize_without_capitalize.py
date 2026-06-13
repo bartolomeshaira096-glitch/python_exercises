@@ -22,3 +22,9 @@ class Text:
                 result += char
 
         return result
+    
+text = input("Enter a string: ")
+
+value = Text(text)
+
+print(value.capitalize_text())
