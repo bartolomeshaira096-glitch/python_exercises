@@ -7,3 +7,10 @@ class Text:
             return self.text
 
         result = ""
+
+        first_char = self.text[0]
+
+        if 'a' <= first_char <= 'z':
+            result += chr(ord(first_char) - 32)
+        else:
+            result += first_char
