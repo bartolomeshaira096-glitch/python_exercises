@@ -9,3 +9,6 @@ while True:
             print("Unique")
         else:
             print("Duplicate")
+
+    except ValueError:
+        break
