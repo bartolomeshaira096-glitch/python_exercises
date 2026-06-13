@@ -7,3 +7,10 @@ class Text:
             return self.text[len(prefix):]
 
         return self.text
+
+text = input("Enter a string: ")
+prefix = input("Enter prefix to remove: ")
+
+value = Text(text)
+
+print(value.remove_prefix(prefix))
